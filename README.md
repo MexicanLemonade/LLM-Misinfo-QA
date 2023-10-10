@@ -19,6 +19,7 @@ They are both tab separated with seven columns:
 Please find the definitions for the four settings (GenRead, CtrlGen, Revise, Reit) in our paper.
 
 ## Cite
+```
 @misc{pan2023risk,
       title={On the Risk of Misinformation Pollution with Large Language Models}, 
       author={Yikang Pan and Liangming Pan and Wenhu Chen and Preslav Nakov and Min-Yen Kan and William Yang Wang},
@@ -27,3 +28,4 @@ Please find the definitions for the four settings (GenRead, CtrlGen, Revise, Rei
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
