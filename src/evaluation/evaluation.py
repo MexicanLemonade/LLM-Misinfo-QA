@@ -266,12 +266,12 @@ def get_EM_F1(retrieve_result, read_result_path, out_metric):
     out_metric['lens'] = lens
     # return out_metric
 
-def get_convinced_rate(read_result_path, out_metric, sample):
+def get_convinced_rate(read_result_path, out_metric, sample, false_answer_path):
     # create a json result file from retrieval and read results for evaluation
     read_result_path = Path(read_result_path)
     eval_file_path = read_result_path.parent /'for-eval-false-answer.jsonl'
     with open(eval_file_path, 'w') as f:
-        false_answer_path = '/mnt/victoria/data3/liangming/yikangpan/nela-gt-main/passage-generation/stream_covid_mal_gen_answers.txt'
+        # false_answer_path = 
         with open(false_answer_path, 'r') as f2:
             false_result = f2.readlines()
         read_result = open(read_result_path, 'r').readlines()
