@@ -1,7 +1,6 @@
 # LLM-Misinfo-QA
 
 **Under construction**
-[TODO] A minimal example beginners
 
 This repository contains data and code used for [On the Risk of Misinformation Pollution with Large Language Models](https://arxiv.org/abs/2305.13661) (to appear on Findings of EMNLP 2023). 
 
@@ -76,6 +75,10 @@ You should be able to find a directory called `GPT-top{top_k}-{name_of_qa_file}`
 ## Common Problems
 - IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)
 https://github.com/facebookresearch/DPR/issues/225
+
+## TODOs
+- A minimal example for beginners
+- FiD without environment switching (DPR and FiD dependency conflicts)
 
 ## Cite
 ```
