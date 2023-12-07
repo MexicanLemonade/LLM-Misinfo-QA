@@ -38,7 +38,7 @@ We provide a wrapper for the retrieve-and-read type ODQA systems for evaluation 
 #### Prerequisites
 Refer to the (original DPR repo)[https://github.com/facebookresearch/DPR] and install it in the directory containing this repo.
 ```
-pip install -r requirements.txt
+conda env create --file=environment.yml
 ```
 #### Indexing DPR-style corpora
 ```
