@@ -2,7 +2,7 @@
 
 **Under construction**
 
-This repository contains data and code used for [On the Risk of Misinformation Pollution with Large Language Models](https://arxiv.org/abs/2305.13661) (Findings of EMNLP 2023). 
+This repository contains data and code used for [On the Risk of Misinformation Pollution with Large Language Models](https://aclanthology.org/2023.findings-emnlp.97/) (Findings of EMNLP 2023). 
 
 **Abstract**
 In this paper, we comprehensively investigate the potential misuse of modern Large Language Models (LLMs) for generating credible-sounding misinformation and its subsequent impact on information-intensive applications, particularly Open-Domain Question Answering (ODQA) systems. We establish a threat model and simulate potential misuse scenarios, both unintentional and intentional, to assess the extent to which LLMs can be utilized to produce misinformation. Our study reveals that LLMs can act as effective misinformation generators, leading to a significant degradation in the performance of ODQA systems. To mitigate the harm caused by LLM-generated misinformation, we explore three defense strategies: prompting, misinformation detection, and majority voting. While initial results show promising trends for these defensive strategies, much more work needs to be done to address the challenge of misinformation pollution. Our work highlights the need for further research and interdisciplinary collaboration to address LLM-generated misinformation and to promote responsible use of LLMs.
@@ -82,12 +82,24 @@ https://github.com/facebookresearch/DPR/issues/225
 
 ## Cite
 ```
-@misc{pan2023risk,
-      title={On the Risk of Misinformation Pollution with Large Language Models}, 
-      author={Yikang Pan and Liangming Pan and Wenhu Chen and Preslav Nakov and Min-Yen Kan and William Yang Wang},
-      year={2023},
-      eprint={2305.13661},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{pan-etal-2023-risk,
+    title = "On the Risk of Misinformation Pollution with Large Language Models",
+    author = "Pan, Yikang  and
+      Pan, Liangming  and
+      Chen, Wenhu  and
+      Nakov, Preslav  and
+      Kan, Min-Yen  and
+      Wang, William",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.97",
+    pages = "1389--1403",
+    abstract = "We investigate the potential misuse of modern Large Language Models (LLMs) for generating credible-sounding misinformation and its subsequent impact on information-intensive applications, particularly Open-Domain Question Answering (ODQA) systems. We establish a threat model and simulate potential misuse scenarios, both unintentional and intentional, to assess the extent to which LLMs can be utilized to produce misinformation. Our study reveals that LLMs can act as effective misinformation generators, leading to a significant degradation (up to 87{\%}) in the performance of ODQA systems. Moreover, we uncover disparities in the attributes associated with persuading humans and machines, presenting an obstacle to current human-centric approaches to combat misinformation. To mitigate the harm caused by LLM-generated misinformation, we propose three defense strategies: misinformation detection, vigilant prompting, and reader ensemble. These approaches have demonstrated promising results, albeit with certain associated costs. Lastly, we discuss the practicality of utilizing LLMs as automatic misinformation generators and provide relevant resources and code to facilitate future research in this area.",
 }
 ```
